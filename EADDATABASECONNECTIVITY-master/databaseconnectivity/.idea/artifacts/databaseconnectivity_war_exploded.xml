@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="databaseconnectivity:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/databaseconnectivity_war_exploded.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="databaseconnectivity/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="databaseconnectivity" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="postgresql-42.2.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
